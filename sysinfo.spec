@@ -5,14 +5,15 @@ Version:	0.6.1
 Release:	1
 License:	GPL
 Group:		X11/Applications
-Source0:	http://dl.sf.net/gsysinfo/%{name}-%{version}.tar.bz2
+Source0:	http://dl.sourceforge.net/gsysinfo/%{name}-%{version}.tar.bz2
 # Source0-md5:	bc4b17c2ce0193f22d41602f6640ed6d
 URL:		http://sysinfo.r8.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	gtkmm-devel
-BuildRequires:	libglademm-devel
+BuildRequires:	gtkmm-devel >= 2.6.0
+BuildRequires:	libglademm-devel >= 2.4.0
 BuildRequires:	libtool
+BuildRequires:	pkgconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
