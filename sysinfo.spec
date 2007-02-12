@@ -1,5 +1,5 @@
 Summary:	Sysinfo - know your computer
-Summary(pl.UTF-8):   Sysinfo - znaj swój komputer
+Summary(pl.UTF-8):	Sysinfo - znaj swój komputer
 Name:		sysinfo
 Version:	0.6.1
 Release:	1
