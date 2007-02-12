@@ -1,5 +1,5 @@
 Summary:	Sysinfo - know your computer
-Summary(pl):	Sysinfo - znaj swój komputer
+Summary(pl.UTF-8):   Sysinfo - znaj swÃ³j komputer
 Name:		sysinfo
 Version:	0.6.1
 Release:	1
@@ -36,26 +36,26 @@ computer/system information:
 - Other information: Sound card details, Input devices, Screen
   resolution.
 
-%description -l pl
-Sysinfo jest prostym linuksowym programem wy¶wietlaj±cym informacje o
+%description -l pl.UTF-8
+Sysinfo jest prostym linuksowym programem wyÅ›wietlajÄ…cym informacje o
 komputerze/systemie:
 
-- Ogólne informacje: wersja j±dra, wersja dystrybucji, nazwa
-  hosta/domeny, wersje wa¿niejszych programów,
-- Informacje o procesorze: nazwa/producent, czêstotliwo¶æ, cache L2,
+- OgÃ³lne informacje: wersja jÄ…dra, wersja dystrybucji, nazwa
+  hosta/domeny, wersje waÅ¼niejszych programÃ³w,
+- Informacje o procesorze: nazwa/producent, czÄ™stotliwoÅ›Ä‡, cache L2,
   model/rodzina/stepping,
-- Informacje o pamiêci: ilo¶æ ca³kowita, wolna, cache,
+- Informacje o pamiÄ™ci: iloÅ›Ä‡ caÅ‚kowita, wolna, cache,
   aktywna/nieaktywna, swap.
-- Informacje o IDE: dyski, CD/DVD-romy, modele, pojemno¶ci, cache,
-- Informacje o systemach plików: ilo¶æ wolnego miejsca,
-- Informacje o sprzêcie: mostek na p³ycie g³ównej, interfejs IDE,
-  kontroler VGA, kontrolery multimediów (karty d¼wiêkowe), karty
+- Informacje o IDE: dyski, CD/DVD-romy, modele, pojemnoÅ›ci, cache,
+- Informacje o systemach plikÃ³w: iloÅ›Ä‡ wolnego miejsca,
+- Informacje o sprzÄ™cie: mostek na pÅ‚ycie gÅ‚Ã³wnej, interfejs IDE,
+  kontroler VGA, kontrolery multimediÃ³w (karty dÅºwiÄ™kowe), karty
   sieciowe,
 - Informacje o USB: kontrolery USB,
-- Informacje o NVIDII: model karty graficznej, mno¿nik AGP, Fast
+- Informacje o NVIDII: model karty graficznej, mnoÅ¼nik AGP, Fast
   writes/SBA, wersja sterownika,
-- Inne informacje: szczegó³y karty d¼wiêkowej, urz±dzeñ wej¶cia,
-  rozdzielczo¶æ obrazu.
+- Inne informacje: szczegÃ³Å‚y karty dÅºwiÄ™kowej, urzÄ…dzeÅ„ wejÅ›cia,
+  rozdzielczoÅ›Ä‡ obrazu.
 
 %prep
 %setup -q
